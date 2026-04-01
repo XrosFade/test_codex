@@ -14,6 +14,18 @@ work with codex, test repo
 - 기본 동작 점검 (`run_basic_behavior_check`)
 
 ### 실행
+## SRPG Prototype (Python)
+
+A minimal Japanese-style SRPG combat prototype is included in `src/srpg.py`.
+
+### Features
+- Grid-based movement with Manhattan distance.
+- Speed-based deterministic turn order.
+- Terrain system with move cost and defense bonus.
+- Basic attack action with range checks.
+
+
+### Run
 ```bash
 python3 src/srpg.py
 ```
@@ -25,3 +37,7 @@ python3 -m pytest -q
 
 ### 매뉴얼
 - `docs/map_loader_manual.md`
+### Test
+```bash
+python3 -m pytest -q
+```
