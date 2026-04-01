@@ -1,0 +1,19 @@
+{
+  "width": 8,
+  "height": 8,
+  "tile_types": {
+    "P": {"name": "Plains", "move_cost": 1, "defense_bonus": 0},
+    "F": {"name": "Forest", "move_cost": 2, "defense_bonus": 2},
+    "R": {"name": "Road", "move_cost": 1, "defense_bonus": 0}
+  },
+  "rows": [
+    "PPPPPPPP",
+    "PPRRRRPP",
+    "PPFFRRPP",
+    "PPFFRRPP",
+    "PPRRRRPP",
+    "PPPPPPPP",
+    "PPPPPPPP",
+    "PPPPPPPP"
+  ]
+}
