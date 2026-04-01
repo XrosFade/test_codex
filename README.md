@@ -10,7 +10,7 @@ A minimal Japanese-style SRPG combat prototype is included in `src/srpg.py`.
 - Speed-based deterministic turn order.
 - Terrain system with move cost and defense bonus.
 - Basic attack action with range checks.
-- Simple AI for enemy/player auto-turn simulation.
+
 
 ### Run
 ```bash
